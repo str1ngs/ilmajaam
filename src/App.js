@@ -43,7 +43,8 @@ function App() {
 
   useEffect(() => {
     
-    muudaAktiivset(1);
+    muudaAktiivset(1); 
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
   const asendaIlmaAndmed = (asukohaIndex, ilmaAndmed) => {
